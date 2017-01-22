@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.2-universal-java
+ENV VERSION=0.1.3
 
 RUN gem install ffi-yajl --version ${VERSION} --no-format-exec
 
